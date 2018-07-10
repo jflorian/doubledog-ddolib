@@ -25,6 +25,7 @@ This module provides a standard library of resources commonly used by Doubledog'
 **Data types:**
 
 * [ddolib::file::ensure](#ddolibfileensure-data-type)
+* [ddolib::service::ensure](#ddolibserviceensure-data-type)
 
 **Facts:**
 
@@ -40,6 +41,12 @@ This module provides a standard library of resources commonly used by Doubledog'
 #### `Ddolib::File::Ensure` data type
 
 Matches acceptable ensure values for file resources: `present` or `absent`.  Alternatively, a Boolean value may also be used with `true` equivalent to `present` and `false` equivalent to `absent`.
+
+#### `Ddolib::Service::Ensure` data type
+
+Matches acceptable ensure values for file resources: `running` or `stopped`.  Alternatively, a Boolean value may also be used with `true` equivalent to `running` and `false` equivalent to `stopped`.
+
+Note that Puppetlabs own stdlib provides a `Stdlib::Ensure::Service` but it does not support Boolean values unlike the resource type it represents.
 
 ### Facts
 
