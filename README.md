@@ -24,6 +24,8 @@ This module provides a standard library of resources commonly used by Doubledog'
 
 **Data types:**
 
+* [ddolib::file::ensure](#ddolibfileensure-data-type)
+
 **Facts:**
 
 **Faunctions:**
@@ -34,6 +36,10 @@ This module provides a standard library of resources commonly used by Doubledog'
 ### Defined types
 
 ### Data types
+
+#### `Ddolib::File::Ensure` data type
+
+Matches acceptable ensure values for file resources: `present` or `absent`.  Alternatively, a Boolean value may also be used with `true` equivalent to `present` and `false` equivalent to `absent`.
 
 ### Facts
 
