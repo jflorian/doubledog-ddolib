@@ -29,7 +29,7 @@ This module provides a standard library of resources commonly used by Doubledog'
 
 **Facts:**
 
-**Faunctions:**
+**Functions:**
 
 
 ### Classes
