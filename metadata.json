@@ -1,6 +1,6 @@
 {
     "name": "doubledog-ddolib",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "author": "John Florian",
     "summary": "The doubledog standard library of reusable resources",
     "license": "GPL-3.0",
