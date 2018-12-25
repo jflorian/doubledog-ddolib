@@ -21,6 +21,7 @@ All notable changes to this project (since v0.0.0) will be documented in this fi
 
 ## [1.0.0] WIP
 ### Added
+- type `Ddolib::File::Ensure::Limited`
 ### Changed
 ### Deprecated
 ### Removed

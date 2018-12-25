@@ -25,6 +25,7 @@ This module provides a standard library of resources commonly used by Doubledog'
 **Data types:**
 
 * [ddolib::file::ensure](#ddolibfileensure-data-type)
+* [ddolib::file::ensure::limited](#ddolibfileensurelimited-data-type)
 * [ddolib::service::ensure](#ddolibserviceensure-data-type)
 
 **Facts:**
@@ -40,13 +41,21 @@ This module provides a standard library of resources commonly used by Doubledog'
 
 #### `Ddolib::File::Ensure` data type
 
-Matches acceptable ensure values for file resources: `present`, `absent`, `file`, `directory`, and `link`.  See the [File resource type](https://puppet.com/docs/puppet/latest/types/file.html#file-attribute-ensure) for details.
+Matches acceptable ensure values for file resources: `present`, `absent`, `file`, `directory`, and `link`.  See the [File resource type](https://puppet.com/docs/puppet/latest/types/file.html#file-attribute-ensure) for details.  See also [ddolib::file::ensure::limited](#ddolibfileensurelimited-data-type).
 
 Changed in v1.0.0:
     - added `file`, `directory`, and `link`
     - removed support for `Boolean` values
 
 Since v0.0.0.
+
+
+#### `Ddolib::File::Ensure::Limited` data type
+
+Like [ddolib::file::ensure](#ddolibfileensure-data-type), but only matches `present` and `absent`.
+
+Since v1.0.0.
+
 
 #### `Ddolib::Service::Ensure` data type
 
