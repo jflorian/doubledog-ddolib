@@ -26,6 +26,7 @@ This module provides a standard library of resources commonly used by Doubledog'
 
 * [Ddolib::File::Ensure](#ddolibfileensure-data-type)
 * [Ddolib::File::Ensure::limited](#ddolibfileensurelimited-data-type)
+* [Ddolib::Mount::Ensure](#ddolibmountensure-data-type)
 * [Ddolib::Service::Ensure](#ddolibserviceensure-data-type)
 
 **Facts:**
@@ -53,6 +54,13 @@ Since v0.0.0.
 #### `Ddolib::File::Ensure::Limited` data type
 
 Like [Ddolib::File::Ensure](#ddolibfileensure-data-type), but only matches `present` and `absent`.
+
+Since v1.0.0.
+
+
+#### `Ddolib::Mount::Ensure` data type
+
+Matches acceptable ensure values for mount resources: `defined`, `present`, `unmounted`, `absent`, and `mounted`.  See the [Mount resource type](https://puppet.com/docs/puppet/latest/types/mount.html#mount-attribute-ensure) for details.
 
 Since v1.0.0.
 
