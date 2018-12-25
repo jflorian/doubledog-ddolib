@@ -40,7 +40,11 @@ This module provides a standard library of resources commonly used by Doubledog'
 
 #### `Ddolib::File::Ensure` data type
 
-Matches acceptable ensure values for file resources: `present` or `absent`.  Alternatively, a Boolean value may also be used with `true` equivalent to `present` and `false` equivalent to `absent`.
+Matches acceptable ensure values for file resources: `present`, `absent`, `file`, `directory`, and `link`.  See the [File resource type](https://puppet.com/docs/puppet/latest/types/file.html#file-attribute-ensure) for details.
+
+Changed in v1.0.0:
+    - added `file`, `directory`, and `link`
+    - removed support for `Boolean` values
 
 Since v0.0.0.
 

@@ -12,7 +12,10 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 
 
-type Ddolib::File::Ensure = Variant[
-    Boolean,
-    Enum['present', 'absent'],
+type Ddolib::File::Ensure = Enum[
+    'present',
+    'absent',
+    'file',
+    'directory',
+    'link',
 ]
