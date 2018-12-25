@@ -1,5 +1,5 @@
 #
-# == Type: ddolib::service::ensure
+# == Type: Ddolib::Service::Ensure
 #
 # === Authors
 #

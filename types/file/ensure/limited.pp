@@ -1,5 +1,5 @@
 #
-# == Type: ddolib::file::ensure::limited
+# == Type: Ddolib::File::Ensure::Limited
 #
 # === Authors
 #

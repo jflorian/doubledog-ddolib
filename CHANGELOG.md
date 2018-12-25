@@ -29,6 +29,7 @@ All notable changes to this project (since v0.0.0) will be documented in this fi
 - type `Ddolib::File::Ensure`:
     - allowed `Boolean` values, but the underlying `File` resource type does not
     - disallowed `file`, `directory` and `link` but the underlying `File` resource type does
+- documentation errors that showed data types without initial capitalization
 ### Security
 
 ## [0.0.0 and prior] 2018-12-15
