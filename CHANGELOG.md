@@ -23,9 +23,11 @@ All notable changes to this project (since v0.0.0) will be documented in this fi
 ### Added
 - type `Ddolib::File::Ensure::Limited`
 - type `Ddolib::Mount::Ensure`
+- Fedora 29 support
 ### Changed
 ### Deprecated
 ### Removed
+- Fedora 26-27 support
 ### Fixed
 - type `Ddolib::File::Ensure`:
     - allowed `Boolean` values, but the underlying `File` resource type does not
