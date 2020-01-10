@@ -1,12 +1,9 @@
 {
-    "name": "doubledog-ddolib",
-    "version": "1.0.0",
     "author": "John Florian",
-    "summary": "The doubledog standard library of reusable resources",
-    "license": "GPL-3.0",
-    "source": "https://www.doubledog.org/git/puppet-ddolib.git",
-    "project_page": "https://github.com/jflorian/doubledog-ddolib",
+    "dependencies": [],
     "issues_url": "https://github.com/jflorian/doubledog-ddolib/issues",
+    "license": "GPL-3.0",
+    "name": "doubledog-ddolib",
     "operatingsystem_support": [
         {
             "operatingsystem": "CentOS",
@@ -17,10 +14,14 @@
         {
             "operatingsystem": "Fedora",
             "operatingsystemrelease": [
-                "28",
-                "29"
+                "29",
+                "30",
+                "31"
             ]
         }
     ],
-    "dependencies": []
+    "project_page": "https://github.com/jflorian/doubledog-ddolib",
+    "source": "https://www.doubledog.org/git/puppet-ddolib.git",
+    "summary": "The doubledog standard library of reusable resources",
+    "version": "1.0.0"
 }

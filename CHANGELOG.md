@@ -19,6 +19,16 @@ Template
 
 All notable changes to this project (since v0.0.0) will be documented in this file.  The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](http://semver.org).
 
+## [1.1.0] WIP
+### Added
+- Fedora 30, 31 support
+### Changed
+### Deprecated
+### Removed
+- Fedora 28 support
+### Fixed
+### Security
+
 ## [1.0.0] 2018-12-25
 ### Added
 - type `Ddolib::File::Ensure::Limited`
