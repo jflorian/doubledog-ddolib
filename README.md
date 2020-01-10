@@ -1,3 +1,9 @@
+<!--
+This file is part of the doubledog-ddolib Puppet module.
+Copyright WHEN John Florian
+SPDX-License-Identifier: GPL-3.0-or-later
+-->
+
 # ddolib
 
 #### Table of Contents
@@ -25,7 +31,7 @@ This module provides a standard library of resources commonly used by Doubledog'
 **Data types:**
 
 * [Ddolib::File::Ensure](#ddolibfileensure-data-type)
-* [Ddolib::File::Ensure::limited](#ddolibfileensurelimited-data-type)
+* [Ddolib::File::Ensure::Limited](#ddolibfileensurelimited-data-type)
 * [Ddolib::Mount::Ensure](#ddolibmountensure-data-type)
 * [Ddolib::Service::Ensure](#ddolibserviceensure-data-type)
 
@@ -67,7 +73,7 @@ Since v1.0.0.
 
 #### `Ddolib::Service::Ensure` data type
 
-Matches acceptable ensure values for file resources: `running` or `stopped`.  Alternatively, a Boolean value may also be used with `true` equivalent to `running` and `false` equivalent to `stopped`.
+Matches acceptable ensure values for service resources: `running` or `stopped`.  Alternatively, a Boolean value may also be used with `true` equivalent to `running` and `false` equivalent to `stopped`.
 
 Note that Puppetlabs own stdlib provides a `Stdlib::Ensure::Service` but it does not support Boolean values unlike the resource type it represents.
 
